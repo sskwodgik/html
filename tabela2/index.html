@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style type="text/css">
+        table, td, th {
+            border: 1px solid #000;
+        }
+    </style>
 </head>
 <body>
     <table>
         <thead>
             <tr>
                 <th>Kolumna 1</th>
-                <th>Kolumna 2</th>
-                <th>Kolumna 3</th>
+                <th colspan="2">Kolumna 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Wiersz 1</td>
-                <td>Wiersz 2</td>
+                <td rowspan="2">Wiersz 2</td>
                 <td>Wiersz 3</td>
             </tr>
             <tr>
                 <td>Wiersz 4</td>
                 <td>Wiersz 5</td>
-                <td>Wiersz 6</td>
+
             </tr>
             <tr>
+                <td>Wiersz 6</td>
                 <td>Wiersz 7</td>
                 <td>Wiersz 8</td>
-                <td>Wiersz 9</td>
             </tr>
         </tbody>
     </table>
